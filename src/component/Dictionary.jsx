@@ -41,7 +41,7 @@ const Dictionary = () => {
     return (
         <div>
         
-        <h1>Dictionary</h1>
+        <h1>Dictionary App</h1>
         <form>
             <input required="true" type="text" onChange={(e) => handleChange(e)}></input>
             <button type="submit" onClick={(e) => handleSubmit(e)}>Search</button>
